@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coffee shop</title>
+    <link
+      rel="shortcut icon"
+      href="https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-1e88-61fa-8ad1-a55e5a8348e8/raw?se=2025-09-25T21%3A00%3A29Z&sp=r&sv=2024-08-04&sr=b&scid=dc9072fc-47d6-5246-b173-39db16fc2059&skoid=b7fc319f-b93c-4fac-ba5f-14fdc3f9209f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-25T19%3A28%3A39Z&ske=2025-09-26T19%3A28%3A39Z&sks=b&skv=2024-08-04&sig=kC5QJfsbzEds2DLXHsTQ5gxuNIKWjznka87Y8Y9NTaA%3D"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle">
+      <i class="ri-moon-line"></i>
+    </button>
+
+    <div id="nav">
+      <img
+        src="https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-1e88-61fa-8ad1-a55e5a8348e8/raw?se=2025-09-25T21%3A00%3A29Z&sp=r&sv=2024-08-04&sr=b&scid=dc9072fc-47d6-5246-b173-39db16fc2059&skoid=b7fc319f-b93c-4fac-ba5f-14fdc3f9209f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-25T19%3A28%3A39Z&ske=2025-09-26T19%3A28%3A39Z&sks=b&skv=2024-08-04&sig=kC5QJfsbzEds2DLXHsTQ5gxuNIKWjznka87Y8Y9NTaA%3D"
+        alt="logo" style="background-color: #27f096;border-radius: 50%;"
+      />
+      <h4>HOME</h4>
+      <h4>MENU</h4>
+      <h4>SHOP</h4>
+      <h4>ABOUT US</h4>
+      <h4>CONTACT</h4>
+      
+      <!-- Hamburger Menu -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+      <h4>HOME</h4>
+      <h4>MENU</h4>
+      <h4>SHOP</h4>
+      <h4>ABOUT US</h4>
+      <h4>CONTACT</h4>
+    </div>
+
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <video
+      autoplay
+      loop
+      muted
+      src="https://marketplace.canva.com/EAGWCxhtS7o/1/document_810w/canva-VMYzWbPrWYM.mp4"
+    ></video>
+
+    <div id="main">
+      <div id="page1">
+        <h1>BREW. SIP. SMILE.</h1>
+        <h2>ELEVATE YOUR DAY, ONE CUP AT A TIME.</h2>
+        <p>
+At SHAN'S CAFE, We believe every cup should tell a story. From ethically sourced beans to artisan brewing, We bring the café experience straight to you.
+        </p>
+        <div id="arrow">
+          <i class="ri-arrow-down-line"></i>
+        </div>
+      </div>
+
+      <div id="page2">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>LATTE LOVE</h4>
+            <h4>MOCHA MADNESS</h4>
+            <h4>BEAN DREAMS</h4>
+            <h4>CAFFEINE AND</h4>
+            <h4>CONFIDENCE</h4>
+          </div>
+          <div id="scroller-in">
+            <h4>LATTE LOVE</h4>
+            <h4>MOCHA MADNESS</h4>
+            <h4>BEAN DREAMS</h4>
+            <h4>CAFFEINE AND</h4>
+            <h4>CONFIDENCE</h4>
+          </div>
+        </div>
+
+        <div id="about-us">
+          <img
+            src="https://i.pinimg.com/736x/92/ac/fe/92acfe72ef652c6421784eed03b86028.jpg"
+            alt="Cafe interior"
+          />
+          <div id="about-us-in">
+            <h3>ABOUT US</h3>
+            <p>
+Welcome to Shan’s Cafe, where every cup tells a story. Founded with a passion for quality coffee and cozy moments, we’re dedicated to bringing you the perfect blend of flavor, warmth, and comfort.
+
+At Shan’s Cafe, we believe that coffee is more than just a drink—it’s an experience. From sourcing the finest beans to crafting each cup with care, our mission is to create a space where you can relax, connect, and savor life’s little pleasures.
+
+Whether you’re here for your morning boost, an afternoon pick-me-up, or a quiet corner to unwind, Shan’s Cafe is your home away from home. Join us, and discover a place where every sip inspires.
+            </p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1616091216791-a5360b5fc78a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWVzdGhldGljJTIwY2FmZXxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Cafe exterior"
+          />
+        </div>
+
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h4>Discount</h4>
+              <p>
+                40% discount going on for new customers and for those having a b'day!! Make sure to enjoy the benifits....
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h4>Menu</h4>
+              <p>
+                The menu keeps changing new day new flavour to the life start with a coffee to be stress free!
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h4>Hot vs Iced</h4>
+              <p>
+Iced coffee is surging in popularity, driven by younger consumers and the desire for customized, refreshing beverages, though hot coffee still holds strong for its bold flavors and traditional appeal. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="green-div">
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt="Decorative dots"
+          />
+          <h4>
+            SIGN UP FOR SHAN'S CAFE NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX
+          </h4>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt="Decorative dots"
+          />
+        </div>
+      </div>
+
+      <div id="page3">
+        <p>
+“I absolutely love visiting Shans Cafe. The website makes it easy to browse the menu and order ahead, which saves me time. Inside, the atmosphere is calm, relaxing, and beautifully decorated. Staff are attentive and friendly, and the coffee is consistently excellent. A truly enjoyable experience every visit.”
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt="Quote left"
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt="Quote right"
+        />
+      </div>
+
+      <div id="page4">
+        <h1>TRY OUR BEST PICKS!
+        </h1>
+        <div class="elem">
+          <h2>CAPPUCCINO</h2>
+          <img
+            src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA="
+            alt="CAPPUCCINO"
+          />
+        </div>
+        <div class="elem">
+          <h2>MOCHA</h2>
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/056/489/974/small/rich-mocha-coffee-with-whipped-cream-and-chocolate-drizzle-tray-photo.jpg"
+            alt="MOCHA"
+          />
+        </div>
+        <div class="elem">
+          <h2>DALGONA</h2>
+          <img
+            src="https://media.istockphoto.com/id/1414728002/photo/dalgona-coffee-iced-fluffy-creamy-whipped-trend-drink-with-coffee-foam-and-milk.jpg?s=612x612&w=0&k=20&c=CvjSKoDBH5BYUt6Pko2Ra265GLFORkyu6IYtbZylbW8="
+            alt="DALGONA"
+          />
+        </div>
+      </div>
+
+      <div id="footer">
+        <img
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg"
+          alt="Footer decoration"
+        />
+        <div id="f1">
+      <img
+        src="https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-1e88-61fa-8ad1-a55e5a8348e8/raw?se=2025-09-25T21%3A00%3A29Z&sp=r&sv=2024-08-04&sr=b&scid=dc9072fc-47d6-5246-b173-39db16fc2059&skoid=b7fc319f-b93c-4fac-ba5f-14fdc3f9209f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-25T19%3A28%3A39Z&ske=2025-09-26T19%3A28%3A39Z&sks=b&skv=2024-08-04&sig=kC5QJfsbzEds2DLXHsTQ5gxuNIKWjznka87Y8Y9NTaA%3D"
+        alt="logo" style="background-color: #27f096;border-radius: 50%;"
+      />
+        </div>
+        <div id="f2">
+          <h3>About Us</h3>
+          <h3>Contact Us</h3>
+          <h3>Terms & Conditions</h3>
+        </div>
+        <div id="f4">
+          <h4>
+            Address: 123 Coffee Lane <br />
+            Phone: +91-123-456-7890 <br />
+            Email: love@coffee.com<br />
+            GET DIRECTIONS <br />
+            Hours: Mon–Sun: 7 AM – 9 PM <br />
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
