@@ -110,3 +110,30 @@ gsap.from("#page4 h1", {
     scrub: 3,
   },
 });
+
+document.querySelector("#arrow").addEventListener("click", function() {
+    document.querySelector("#page2").scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
+
+
+gsap.from("#page4 h1", {
+  y: 50,
+  scrollTrigger: {
+    trigger: "#page4 h1",
+    scroller: "body",
+    // markers:true,
+    start: "top 75%",
+    end: "top 70%",
+    scrub: 3,
+  },
+});
+
+
+// Arrow scroll functionality
+document.querySelector("#arrow").addEventListener("click", function() {
+    document.querySelector("#page2").scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
