@@ -3,123 +3,152 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shans Cafe</title>
+    <title>Shan's Cafe - Premium Coffee Experience</title>
     <link
       rel="shortcut icon"
-      href="https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-1e88-61fa-8ad1-a55e5a8348e8/raw?se=2025-09-25T21%3A00%3A29Z&sp=r&sv=2024-08-04&sr=b&scid=dc9072fc-47d6-5246-b173-39db16fc2059&skoid=b7fc319f-b93c-4fac-ba5f-14fdc3f9209f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-25T19%3A28%3A39Z&ske=2025-09-26T19%3A28%3A39Z&sks=b&skv=2024-08-04&sig=kC5QJfsbzEds2DLXHsTQ5gxuNIKWjznka87Y8Y9NTaA%3D"
+      href="https://cdn-icons-png.flaticon.com/512/924/924514.png"
       type="image/x-icon"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #0a0a0a;
+        font-family: "Poppins", sans-serif;
+      }
+      #main {
+        position: relative;
+        z-index: 2;
+      }
+    </style>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <nav id="nav">
+      <div class="nav-logo-container">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/924/924514.png"
+          alt="Shan's Cafe Logo"
+          class="nav-logo"
+        />
+        <div class="logo-text">
+          <h2>SHAN'S</h2>
+          <p>CAFE</p>
+        </div>
+      </div>
+      <div class="nav-links">
+        <h4 data-text="HOME">HOME</h4>
+        <h4 data-text="MENU">MENU</h4>
+        <h4 data-text="SHOP">SHOP</h4>
+        <h4 data-text="ABOUT">ABOUT</h4>
+        <h4 data-text="CONTACT">CONTACT</h4>
+      </div>
 
-    <div id="nav">
-      <img
-        src="https://media.discordapp.net/attachments/1176474912492367882/1420979812528295997/image.png?ex=68d8af93&is=68d75e13&hm=b61590714856924628483557f91d55ddc87d34a94fe9915aefee5f616dfb481e&=&format=webp&quality=lossless&width=880&height=713" style="border-radius: 50%;"
-      />
-      <h4>HOME</h4>
-      <h4>MENU</h4>
-      <h4>SHOP</h4>
-      <h4>ABOUT US</h4>
-      <h4>CONTACT</h4>
-      
-      <!-- Hamburger Menu -->
       <div class="hamburger">
         <span></span>
         <span></span>
         <span></span>
       </div>
-    </div>
+    </nav>
 
-    <!-- Mobile Menu Overlay -->
     <div class="mobile-menu">
       <h4>HOME</h4>
       <h4>MENU</h4>
       <h4>SHOP</h4>
-      <h4>ABOUT US</h4>
+      <h4>ABOUT</h4>
       <h4>CONTACT</h4>
     </div>
 
     <div id="cursor"></div>
     <div id="cursor-blur"></div>
 
-    <video
-      autoplay
-      loop
-      muted
-      src="https://marketplace.canva.com/EAGWCxhtS7o/1/document_810w/canva-VMYzWbPrWYM.mp4"
-    ></video>
-
     <div id="main">
-      <div id="page1">
-        <h1>BREW. SIP. SMILE.</h1>
-        <h2>ELEVATE YOUR DAY, ONE CUP AT A TIME.</h2>
-        <p>
-At SHAN'S CAFE, We believe every cup should tell a story. From ethically sourced beans to artisan brewing, We bring the café experience straight to you.
+      <section id="page1">
+        <h1 class="hero-title">BREW. SIP. SMILE.</h1>
+        <h2 class="hero-subtitle">ELEVATE YOUR DAY, ONE CUP AT A TIME.</h2>
+        <p class="hero-description">
+          At SHAN'S CAFE, we believe every cup should tell a story. From
+          ethically sourced beans to artisan brewing, we bring the café
+          experience straight to you.
         </p>
         <div id="arrow">
           <i class="ri-arrow-down-line"></i>
         </div>
-      </div>
+      </section>
 
-      <div id="page2">
+      <section id="page2">
         <div id="scroller">
           <div id="scroller-in">
             <h4>LATTE LOVE</h4>
             <h4>MOCHA MADNESS</h4>
             <h4>BEAN DREAMS</h4>
-            <h4>CAFFEINE AND</h4>
-            <h4>CONFIDENCE</h4>
+            <h4>CAFFEINE MAGIC</h4>
+            <h4>BREW PERFECTION</h4>
           </div>
           <div id="scroller-in">
             <h4>LATTE LOVE</h4>
             <h4>MOCHA MADNESS</h4>
             <h4>BEAN DREAMS</h4>
-            <h4>CAFFEINE AND</h4>
-            <h4>CONFIDENCE</h4>
+            <h4>CAFFEINE MAGIC</h4>
+            <h4>BREW PERFECTION</h4>
           </div>
         </div>
 
         <div id="about-us">
           <img
-            src="https://i.pinimg.com/736x/92/ac/fe/92acfe72ef652c6421784eed03b86028.jpg"
+            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800"
             alt="Cafe interior"
+            class="about-img"
           />
           <div id="about-us-in">
             <h3>ABOUT US</h3>
             <p>
-Welcome to Shan’s Cafe, where every cup tells a story. Founded with a passion for quality coffee and cozy moments, we’re dedicated to bringing you the perfect blend of flavor, warmth, and comfort.
-
-At Shan’s Cafe, we believe that coffee is more than just a drink—it’s an experience. From sourcing the finest beans to crafting each cup with care, our mission is to create a space where you can relax, connect, and savor life’s little pleasures.
-
-Whether you’re here for your morning boost, an afternoon pick-me-up, or a quiet corner to unwind, Shan’s Cafe is your home away from home. Join us, and discover a place where every sip inspires.
+              Welcome to Shan's Cafe, where every cup tells a story. Founded
+              with a passion for quality coffee and cozy moments, we're
+              dedicated to bringing you the perfect blend of flavor, warmth, and
+              comfort.
+            </p>
+            <p>
+              At Shan's Cafe, we believe that coffee is more than just a
+              drink—it's an experience. From sourcing the finest beans to
+              crafting each cup with care, our mission is to create a space
+              where you can relax, connect, and savor life's little pleasures.
             </p>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1616091216791-a5360b5fc78a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWVzdGhldGljJTIwY2FmZXxlbnwwfHwwfHx8MA%3D%3D"
+            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800"
             alt="Cafe exterior"
+            class="about-img"
           />
         </div>
 
         <div id="cards-container">
           <div class="card" id="card1">
             <div class="overlay">
-              <h4>Discount</h4>
+              <h4>Special Discount</h4>
               <p>
-                40% discount going on for new customers and for those having a b'day!! Make sure to enjoy the benifits....
+                40% discount for new customers and birthday celebrations! Make
+                sure to enjoy the benefits of being part of our coffee family.
               </p>
             </div>
           </div>
           <div class="card" id="card2">
             <div class="overlay">
-              <h4>Menu</h4>
+              <h4>Daily Menu</h4>
               <p>
-                The menu keeps changing new day new flavour to the life start with a coffee to be stress free!
+                Our menu changes daily with new flavors to brighten your day.
+                Start with a coffee and leave your stress behind!
               </p>
             </div>
           </div>
@@ -127,51 +156,42 @@ Whether you’re here for your morning boost, an afternoon pick-me-up, or a quie
             <div class="overlay">
               <h4>Hot vs Iced</h4>
               <p>
-Iced coffee is surging in popularity, driven by younger consumers and the desire for customized, refreshing beverages, though hot coffee still holds strong for its bold flavors and traditional appeal. 
+                Iced coffee is surging in popularity among younger consumers,
+                while hot coffee remains beloved for its bold flavors and
+                traditional appeal.
               </p>
             </div>
           </div>
         </div>
-
         <div id="green-div">
-          <img
-            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
-            alt="Decorative dots"
-          />
+          <div class="dot-decoration"></div>
           <h4>
-            SIGN UP FOR SHAN'S CAFE NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX
+            SIGN UP FOR SHAN'S CAFE NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR
+            INBOX
           </h4>
-          <img
-            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
-            alt="Decorative dots"
-          />
+          <div class="dot-decoration"></div>
         </div>
-      </div>
+      </section>
 
-      <div id="page3">
+      <section id="page3">
         <p>
-“I absolutely love visiting Shans Cafe. The website makes it easy to browse the menu and order ahead, which saves me time. Inside, the atmosphere is calm, relaxing, and beautifully decorated. Staff are attentive and friendly, and the coffee is consistently excellent. A truly enjoyable experience every visit.”
+          "I absolutely love visiting Shan's Cafe. The website makes it easy to
+          browse the menu and order ahead, which saves me time. Inside, the
+          atmosphere is calm, relaxing, and beautifully decorated. Staff are
+          attentive and friendly, and the coffee is consistently excellent. A
+          truly enjoyable experience every visit."
         </p>
-        <img
-          id="colon1"
-          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
-          alt="Quote left"
-        />
-        <img
-          id="colon2"
-          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
-          alt="Quote right"
-        />
-      </div>
+        <div id="colon1" class="quote-mark">"</div>
+        <div id="colon2" class="quote-mark">"</div>
+      </section>
 
-      <div id="page4">
-        <h1>TRY OUR BEST PICKS!
-        </h1>
+      <section id="page4">
+        <h1>TRY OUR BEST PICKS!</h1>
         <div class="elem">
           <h2>CAPPUCCINO</h2>
           <img
-            src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA="
-            alt="CAPPUCCINO"
+            src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=800"
+            alt="Cappuccino"
           />
         </div>
         <div class="elem">
@@ -184,21 +204,20 @@ Iced coffee is surging in popularity, driven by younger consumers and the desire
         <div class="elem">
           <h2>DALGONA</h2>
           <img
-            src="https://media.istockphoto.com/id/1414728002/photo/dalgona-coffee-iced-fluffy-creamy-whipped-trend-drink-with-coffee-foam-and-milk.jpg?s=612x612&w=0&k=20&c=CvjSKoDBH5BYUt6Pko2Ra265GLFORkyu6IYtbZylbW8="
+            src="https://media.istockphoto.com/id/1414728002/photo/dalgona-coffee-iced-fluffy-creamy-whipped-trend-drink-with-coffee-foam-and-milk.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=CvjSKoDBH5BYUt6Pko2Ra265GLFORkyu6IYtbZylbW8="
             alt="DALGONA"
           />
         </div>
-      </div>
+      </section>
 
-      <div id="footer">
-        <img
-          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg"
-          alt="Footer decoration"
-        />
+      <footer id="footer">
+        <div class="footer-dots"></div>
         <div id="f1">
-      <img
-        src="https://media.discordapp.net/attachments/1176474912492367882/1420979812528295997/image.png?ex=68d8af93&is=68d75e13&hm=b61590714856924628483557f91d55ddc87d34a94fe9915aefee5f616dfb481e&=&format=webp&quality=lossless&width=880&height=713" style="border-radius: 50%;"
-      />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/924/924514.png"
+            alt="Shan's Cafe Logo"
+          />
+          <h3>SHAN'S CAFE</h3>
         </div>
         <div id="f2">
           <h3>About Us</h3>
@@ -209,12 +228,12 @@ Iced coffee is surging in popularity, driven by younger consumers and the desire
           <h4>
             Address: 123 Coffee Lane <br />
             Phone: +91-123-456-7890 <br />
-            Email: love@coffee.com<br />
-            GET DIRECTIONS <br />
-            Hours: Mon–Sun: 7 AM – 9 PM <br />
+            Email: hello@shanscafe.com<br />
+            <br />
+            Hours: Mon—Sun: 7 AM — 9 PM
           </h4>
         </div>
-      </div>
+      </footer>
     </div>
 
     <script
